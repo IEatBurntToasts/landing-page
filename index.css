@@ -10,7 +10,6 @@
 a:link,
 a:hover,
 a:visited,
-a:hover,
 a:focus,
 a:active {
     text-decoration: none;
@@ -20,7 +19,7 @@ a:active {
 
 img:not(.header) {
     max-width: 600px;
-    min-width: 150px;
+    min-width: 250px;
     width: 100%;
 }
 
@@ -70,17 +69,32 @@ nav {
     padding: 100px;
 }
 
+.hero.container {
+    row-gap: 50px;
+    color: #ffffff;
+}
+
 .hero.description {
     display: flex;
     flex-flow: column wrap;
     row-gap: 1rem;
     font-size: 1.5rem;
     max-width: 700px;
-    flex: 1;
+    flex: auto;
 }
 
 button {
     align-self: flex-start;
     padding: 10px;
     margin: 10px 0 10px 0;
+    background-color: #3882f6;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero.img {
+    flex: auto;
 }
