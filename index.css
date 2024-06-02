@@ -48,7 +48,9 @@ header {
 
 .header.container {
     display: flex;
-    width: 55%;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 48%;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,7 +59,8 @@ nav {
     display: flex;
     column-gap: 20px;
     align-items: center;
-    padding: 15px;
+    line-height: 2;
+    flex-wrap: wrap;
 }
 
 /* Hero Main Section */ 
