@@ -25,8 +25,6 @@ img {
 body > * {
     display: flex;
     justify-content: center;
-    column-gap: 35%;
-    flex-flow: row wrap;
 }
 
 /* Header Section */
@@ -43,7 +41,3 @@ nav {
 }
 
 /* Hero Main Section */ 
-
-.hero.section {
-    justify-content: space-around;
-}
