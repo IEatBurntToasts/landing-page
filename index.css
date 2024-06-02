@@ -18,8 +18,14 @@ a:active {
     font-size: 1.5rem;
 }
 
-img {
+img:not(.header) {
     max-width: 600px;
+    min-width: 150px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 body > * {
@@ -27,17 +33,51 @@ body > * {
     justify-content: center;
 }
 
+header > div,
+section > div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 /* Header Section */
 
 header {
     background-color: #1f2937;
     padding: 20px;
+}
+
+.header.container {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
     align-items: center;
 }
 
 nav {
     display: flex;
     column-gap: 20px;
+    align-items: center;
+    padding: 15px;
 }
 
 /* Hero Main Section */ 
+
+.hero.section {
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.hero.description {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1rem;
+    font-size: 1.5rem;
+    max-width: 700px;
+    flex: 1;
+}
+
+button {
+    align-self: flex-start;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
