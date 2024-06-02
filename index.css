@@ -22,22 +22,27 @@ img {
     max-width: 600px;
 }
 
+body > * {
+    display: flex;
+    justify-content: center;
+    column-gap: 600px;
+    flex-flow: row wrap;
+}
+
 /* Header Section */
 
 header {
-    display: flex;
-    align-items: center;
     background-color: #1f2937;
+    padding: 20px;
+    align-items: center;
 }
 
 nav {
-    display: flex;
     column-gap: 20px;
 }
 
 /* Hero Main Section */ 
 
-.hero.container {
-    display: flex;
+.hero.section {
     justify-content: space-around;
 }
