@@ -15,7 +15,7 @@ a:focus,
 a:active {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 img {
@@ -38,6 +38,7 @@ header {
 }
 
 nav {
+    display: flex;
     column-gap: 20px;
 }
 
