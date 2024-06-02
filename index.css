@@ -7,6 +7,22 @@
 
 header {
     display: flex;
-    padding: 100px;
-    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+a:hover,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
