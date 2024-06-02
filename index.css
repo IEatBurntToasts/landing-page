@@ -1,21 +1,10 @@
 
+/* General Section */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-header {
-    display: flex;
-    padding: 0 100px 0 100px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1f2937;
-}
-
-nav {
-    display: flex;
-    column-gap: 20px;
 }
 
 a:link,
@@ -27,4 +16,28 @@ a:active {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+img {
+    max-width: 600px;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Hero Main Section */ 
+
+.hero.container {
+    display: flex;
+    justify-content: space-around;
 }
