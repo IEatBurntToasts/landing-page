@@ -150,6 +150,8 @@ figcaption {
 
 .quote.section blockquote {
     font-size: 3rem;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote.section figcaption {
