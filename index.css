@@ -23,10 +23,6 @@ img:not(.header) {
     width: 100%;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
 body > * {
     display: flex;
     justify-content: center;
@@ -80,9 +76,13 @@ nav {
     display: flex;
     flex-flow: column wrap;
     row-gap: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     max-width: 600px;
     flex: auto;
+}
+
+h1 {
+    font-size: 2.2rem;
 }
 
 button {
@@ -90,7 +90,7 @@ button {
     padding: 10px;
     margin: 10px 0 10px 0;
     background-color: #3882f6;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 10px;
     border-style: none;
     font-weight: bold;
