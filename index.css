@@ -5,6 +5,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Maison Neue", sans-serif;
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url("./misc/fonts/MaisonNeueBlack.otf");
 }
 
 a:link,
