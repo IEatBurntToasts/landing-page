@@ -126,6 +126,8 @@ h2 {
 .showcase.images img{
     display: flex;
     max-width: 290px;
+    border: solid 8px #3882f6;
+    border-radius: 15px;
 }
 
 figure {
