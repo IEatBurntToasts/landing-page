@@ -25,6 +25,12 @@ a:active {
     color: #9A7E57;
 }
 
+button:hover,
+button:active {
+    background-color: #1f2937;
+    border: solid #ffffff;
+}
+
 img:not(.header) {
     max-width: 600px;
     min-width: 250px;
@@ -203,10 +209,6 @@ h4 {
     padding: 20px;
     border: solid #ffffff;
     padding: 10px 20px;
-}
-
-.contact.box a {
-    color: #ffffff;
 }
 
 /* Copyright Footer Section */
