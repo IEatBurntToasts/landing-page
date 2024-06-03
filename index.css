@@ -71,7 +71,9 @@ nav {
 
 .hero.container {
     row-gap: 50px;
+    column-gap: 20px;
     color: #ffffff;
+    justify-content: center;
 }
 
 .hero.description {
@@ -79,7 +81,7 @@ nav {
     flex-flow: column wrap;
     row-gap: 1rem;
     font-size: 1.5rem;
-    max-width: 700px;
+    max-width: 600px;
     flex: auto;
 }
 
