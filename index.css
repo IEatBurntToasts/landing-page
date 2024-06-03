@@ -81,14 +81,14 @@ nav {
 .hero.description {
     display: flex;
     flex-flow: column wrap;
-    row-gap: 1rem;
-    font-size: 1.7rem;
+    row-gap: 30px;
+    font-size: 1.5rem;
     max-width: 600px;
     flex: auto;
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 
 button {
