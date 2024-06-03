@@ -181,13 +181,13 @@ figcaption {
     flex-flow: column wrap;
     row-gap: 10px;
     padding: 40px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #ffffff;
 }
 
 h4 {
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .call-to-action.box button {
