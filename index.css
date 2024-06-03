@@ -165,14 +165,14 @@ figcaption {
     margin-left: auto;
 }
 
-/* Call-to-action Section */
+/* Contact Section */
 
-.call-to-action.section {
+.contact.section {
     align-items: center;
     padding: 150px;
 } 
 
-.call-to-action.box {
+.contact.box {
     display: flex;
     align-items: center;
     width: 800px;
@@ -182,7 +182,7 @@ figcaption {
     border-radius: 15px;
 }
 
-.call-to-action.box .description {
+.contact.box .description {
     display: flex;
     flex-flow: column wrap;
     row-gap: 10px;
@@ -196,14 +196,14 @@ h4 {
     font-size: 1.8rem;
 }
 
-.call-to-action.box button {
+.contact.box button {
     align-self: center;
     padding: 20px;
     border: solid #ffffff;
     padding: 10px 20px;
 }
 
-.call-to-action.box a {
+.contact.box a {
     color: #ffffff;
 }
 
