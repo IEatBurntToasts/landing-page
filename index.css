@@ -158,3 +158,45 @@ figcaption {
     padding: 20px 0 0 0;
     margin-left: auto;
 }
+
+/* Call-to-action Section */
+
+.call-to-action.section {
+    align-items: center;
+    padding: 150px;
+} 
+
+.call-to-action.box {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    min-width: 0;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.call-to-action.box .description {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    padding: 40px;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.call-to-action.box button {
+    align-self: center;
+    padding: 20px;
+    border: solid #ffffff;
+    padding: 10px 20px;
+}
+
+.call-to-action.box a {
+    color: #ffffff;
+}
