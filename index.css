@@ -171,6 +171,7 @@ figcaption {
 .quote.section figcaption {
     padding: 20px 0 0 0;
     margin-left: auto;
+    text-wrap: nowrap;
 }
 
 /* Contact Section */
